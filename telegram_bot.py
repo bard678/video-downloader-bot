@@ -19,7 +19,7 @@ SELECTING_QUALITY, SELECTING_FORMAT, SELECTING_CLIP = range(3)
 active_downloads = {}
 
 # Get token from environment variable
-TELEGRAM_TOKEN = "7870727682:AAFXz1mvzcXZH7lJEuvw2wDyX3ZzNAdOWxA"
+TELEGRAM_TOKEN = "TELEGRAM_BOT_TOKEN"
 if not TELEGRAM_TOKEN:
     raise ValueError("Please set the TELEGRAM_TOKEN environment variable")
 
